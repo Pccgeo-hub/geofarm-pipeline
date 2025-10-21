@@ -1,0 +1,29 @@
+# Byte-compiled files
+__pycache__/
+*.pyc
+
+# Environments
+.env
+.venv/
+mambaforge/
+*.sqlite3
+
+# Data folders
+data/
+logs/
+outputs/
+cache/
+
+# Configs and credentials
+*.pem
+*.key
+*.json
+*.yaml
+config/
+.aws/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

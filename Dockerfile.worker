@@ -1,0 +1,11 @@
+FROM mambaorg/micromamba:1.5.0
+
+COPY environment.yml /tmp/environment.yml
+RUN micromamba create -f /tmp/environment.yml -n geofarm311 && micromamba clean --all --yes
+
+SHELL ["micromamba", "run", "-n", "geofarm311", "/bin/bash", "-c"]
+WORKDIR /app
+
+COPY src /app/src
+
+CMD ["micromamba", "run", "-n", "geofarm311", "python", "src/06_postgis_ingest.py", "--help"]

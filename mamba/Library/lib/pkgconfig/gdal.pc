@@ -1,0 +1,17 @@
+CONFIG_VERSION=3.10.3
+CONFIG_INST_PREFIX=D:/geofarm_epic1_starter/mamba/Library
+CONFIG_INST_LIBS=-LIBPATH:D:/geofarm_epic1_starter/mamba/Library/lib gdal
+CONFIG_INST_CFLAGS=-ID:/geofarm_epic1_starter/mamba/Library/include
+CONFIG_INST_DATA=D:/geofarm_epic1_starter/mamba/Library/share/gdal
+prefix=${CONFIG_INST_PREFIX}
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${exec_prefix}/include
+datadir=${CONFIG_INST_DATA}
+
+Name: libgdal
+Description: Geospatial Data Abstraction Library
+Version: ${CONFIG_VERSION}
+Libs: ${CONFIG_INST_LIBS}
+Libs.private: D:/geofarm_epic1_starter/mamba/Library/lib/archive.lib D:/geofarm_epic1_starter/mamba/Library/lib/iconv.lib D:/geofarm_epic1_starter/mamba/Library/lib/charset.lib D:/geofarm_epic1_starter/mamba/Library/lib/libssl.lib D:/geofarm_epic1_starter/mamba/Library/lib/libcrypto.lib crypt32 D:/geofarm_epic1_starter/mamba/Library/lib/lzma.lib D:/geofarm_epic1_starter/mamba/Library/lib/deflate.lib D:/geofarm_epic1_starter/mamba/Library/lib/lz4.lib wbemuuid D:/geofarm_epic1_starter/mamba/Library/lib/geotiff_i.lib D:/geofarm_epic1_starter/mamba/Library/lib/tiff.lib ws2_32 D:/geofarm_epic1_starter/mamba/Library/lib/Lerc.lib D:/geofarm_epic1_starter/mamba/Library/lib/zstd.lib D:/geofarm_epic1_starter/mamba/Library/lib/jpeg.lib D:/geofarm_epic1_starter/mamba/Library/lib/libpng.lib D:/geofarm_epic1_starter/mamba/Library/lib/blosc.lib D:/geofarm_epic1_starter/mamba/Library/lib/libwebp.lib D:/geofarm_epic1_starter/mamba/Library/lib/kmlbase.lib D:/geofarm_epic1_starter/mamba/Library/lib/kmldom.lib D:/geofarm_epic1_starter/mamba/Library/lib/kmlengine.lib D:/geofarm_epic1_starter/mamba/Library/lib/minizip.lib D:/geofarm_epic1_starter/mamba/Library/lib/uriparser.lib D:/geofarm_epic1_starter/mamba/Library/lib/z.lib D:/geofarm_epic1_starter/mamba/Library/lib/pcre2-8.lib D:/geofarm_epic1_starter/mamba/Library/lib/spatialite_i.lib D:/geofarm_epic1_starter/mamba/Library/lib/sqlite3.lib D:/geofarm_epic1_starter/mamba/Library/lib/xerces-c_3.lib "C:/Program Files (x86)/Windows Kits/10/Lib/10.0.26100.0/um/x64/odbccp32.lib" "C:/Program Files (x86)/Windows Kits/10/Lib/10.0.26100.0/um/x64/WS2_32.Lib" legacy_stdio_definitions.lib odbccp32.lib D:/geofarm_epic1_starter/mamba/Library/lib/libexpat.lib D:/geofarm_epic1_starter/mamba/Library/lib/xml2.lib D:/geofarm_epic1_starter/mamba/Library/lib/geos_c.lib D:/geofarm_epic1_starter/mamba/Library/lib/libcurl.lib psapi D:/geofarm_epic1_starter/mamba/Library/lib/proj.lib
+Cflags: ${CONFIG_INST_CFLAGS}

@@ -1,0 +1,11 @@
+prefix=D:/geofarm_epic1_starter/mamba/Library
+exec_prefix=D:/geofarm_epic1_starter/mamba/Library
+libdir=D:/geofarm_epic1_starter/mamba/Library/lib
+includedir=D:/geofarm_epic1_starter/mamba/Library/include
+
+Name: Xerces-C++
+Description: Validating XML parser library for C++
+Version: 3.2.5
+Libs: -LD:/geofarm_epic1_starter/mamba/Library/lib -lxerces-c
+Libs.private: 
+Cflags: -ID:/geofarm_epic1_starter/mamba/Library/include

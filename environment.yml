@@ -1,0 +1,22 @@
+name: geofarm311
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - fastapi
+  - uvicorn
+  - pydantic
+  - sqlalchemy
+  - geoalchemy2
+  - psycopg2-binary
+  - pandas
+  - geopandas
+  - rasterio
+  - shapely
+  - pyproj
+  - gdal
+  - boto3
+  - requests
+  - pip:
+      - watchfiles  # hot reload for uvicorn

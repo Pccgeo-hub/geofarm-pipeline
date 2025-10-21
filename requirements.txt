@@ -1,0 +1,17 @@
+pandas
+numpy
+rasterio
+# GDAL
+geopandas
+shapely
+fiona
+pyproj
+pystac-client
+boto3
+requests
+psycopg2-binary
+SQLAlchemy
+geoalchemy2
+pyyaml
+matplotlib
+folium
