@@ -1,9 +1,0 @@
-libdir=D:/geofarm_epic1_starter/mamba/Library/lib
-includedir=D:/geofarm_epic1_starter/mamba/Library/include
-
-Name: libsolvext
-Description: Library for reading repositories
-Version: 0.7.35
-Requires: libsolv
-Libs: -L${libdir} -lsolvext
-Cflags: -I${includedir}

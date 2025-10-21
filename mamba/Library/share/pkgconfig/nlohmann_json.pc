@@ -1,4 +1,0 @@
-Name: nlohmann_json
-Description: JSON for Modern C++
-Version: 3.11.3
-Cflags: -ID:/geofarm_epic1_starter/mamba/Library/include

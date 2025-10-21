@@ -1,8 +1,0 @@
-libdir=D:/geofarm_epic1_starter/mamba/Library/lib
-includedir=D:/geofarm_epic1_starter/mamba/Library/include
-
-Name: libsolv
-Description: Library for solving packages
-Version: 0.7.35
-Libs: -L${libdir} -lsolv
-Cflags: -I${includedir}

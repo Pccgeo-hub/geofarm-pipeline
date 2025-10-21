@@ -1,29 +1,36 @@
-# Byte-compiled files
+﻿# ---- Python / Data science ----
 __pycache__/
-*.pyc
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
-# Environments
-.env
-.venv/
-mambaforge/
-*.sqlite3
-
-# Data folders
-data/
-logs/
-outputs/
-cache/
-
-# Configs and credentials
-*.pem
-*.key
-*.json
-*.yaml
-config/
-.aws/
-
-# IDE and OS files
+# ---- IDE / OS ----
 .vscode/
 .idea/
 .DS_Store
-Thumbs.db
+
+# ---- Environments ----
+.venv/
+venv/
+env/
+.mamba/
+mamba/
+conda_env/
+.env
+
+# ---- Data / models (adjust as needed) ----
+data/
+models/
+*.csv
+*.parquet
+*.zip
+*.h5
+*.pkl
+*.pt
+*.pth
+*.onnx
